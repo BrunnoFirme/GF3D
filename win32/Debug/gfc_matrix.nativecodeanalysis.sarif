@@ -1,0 +1,625 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29335.0"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX86\\x86\\c1.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00A7B1D0 -il C:\\Users\\brunn\\AppData\\Local\\Temp\\_CL_92655bbbast -typedil -f ..\\gfc\\src\\gfc_matrix.c -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829335 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -nologo -W 3 -diagnostics:column -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_LIB -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -DUNICODE -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -FoDebug\\gfc_matrix.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\brunn\\Desktop\\WhatDidISignUpFor\\gf3d\\win32 -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Users\\brunn\\Desktop\\WhatDidISignUpFor\\gf3d\\gfc\\simple_logger\\include -I C:\\Users\\brunn\\Desktop\\WhatDidISignUpFor\\gf3d\\gfc\\simple_json\\include -I C:\\Users\\brunn\\Desktop\\WhatDidISignUpFor\\gf3d\\gfc\\include -I C:\\Users\\brunn\\Desktop\\WhatDidISignUpFor\\gf3d\\include -I C:\\Users\\brunn\\Desktop\\WhatDidISignUpFor\\libs\\VulkanSDK\\1.2.189.1\\Include -I C:\\Users\\brunn\\Desktop\\WhatDidISignUpFor\\libs\\SDL2_ttf-2.0.15\\include -I C:\\Users\\brunn\\Desktop\\WhatDidISignUpFor\\libs\\SDL2_mixer-2.0.4\\include -I C:\\Users\\brunn\\Desktop\\WhatDidISignUpFor\\libs\\SDL2_image-2.0.5\\include -I C:\\Users\\brunn\\Desktop\\WhatDidISignUpFor\\libs\\SDL2-2.0.16\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/src/gf3d_extensions.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/vulkansdk/1.2.189.1/include/vulkan/vulkan.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/vulkansdk/1.2.189.1/include/vulkan/vk_platform.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/vulkansdk/1.2.189.1/include/vulkan/vulkan_core.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/gfc/simple_logger/include/simple_logger.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/gfc/include/gfc_vector.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/gfc/include/gfc_types.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_main.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_stdinc.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_config.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_platform.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/begin_code.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/close_code.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_assert.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_atomic.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_audio.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_error.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_endian.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_mutex.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_thread.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_rwops.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_clipboard.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_cpuinfo.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_events.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_video.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_pixels.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_rect.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_surface.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_blendmode.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_keyboard.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_keycode.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_scancode.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_mouse.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_joystick.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_gamecontroller.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_sensor.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_quit.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_gesture.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_touch.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_filesystem.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_haptic.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_hints.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_loadso.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_log.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_messagebox.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_metal.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_power.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_render.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_shape.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_system.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_timer.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_version.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_locale.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/libs/sdl2-2.0.16/include/sdl_misc.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/include/gf3d_extensions.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/src/gf3d_commands.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/include/gf3d_commands.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/include/gf3d_pipeline.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/include/gf3d_vgraphics.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/gfc/include/gfc_matrix.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/include/gf3d_vqueues.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/include/gf3d_swapchain.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/include/gf3d_mesh.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/gfc/include/gfc_text.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/gfc/include/gfc_color.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/src/gf3d_camera.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/src/game.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/include/gf3d_model.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/include/gf3d_texture.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/include/gf3d_camera.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/brunn/Desktop/WhatDidISignUpFor/gf3d/gfc/src/gfc_vector.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/gfc/src/gfc_types.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/gfc/src/gfc_text.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/brunn/desktop/whatdidisignupfor/gf3d/gfc/src/gfc_matrix.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ]
+        }
+      ]
+    }
+  ]
+}

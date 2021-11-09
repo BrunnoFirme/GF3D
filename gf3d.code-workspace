@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\libs"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"gf3d_swapchain.h": "c",
+			"gf3d_model.h": "c",
+			"gf3d_camera.h": "c"
+		}
+	}
+}
